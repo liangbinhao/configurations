@@ -2,22 +2,29 @@ se nu
 se rnu
 syntax on
 se ruler
+
 set showcmd
+se showmatch
+se showmode
+
 se scrolloff=3
 se t_Co=256
 se enc=utf-8
+se noexpandtab
+se nocompatible
+se history=500
+se autoread
+se cursorline
+
+
+set wildmenu
+
+
 se tabstop=4
 se softtabstop=4
 se shiftwidth=4
 se autoindent
 se smartindent
-se noexpandtab
-se nocompatible
-se history=500
-se autoread
-set wildmenu
-se cursorline
-
 
 
 
